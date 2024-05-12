@@ -31,4 +31,6 @@ public class AbstractNFeAdaptadorBean {
         return ((comprimento - posicao) % 8) + 2;
     }
 
+
+
 }

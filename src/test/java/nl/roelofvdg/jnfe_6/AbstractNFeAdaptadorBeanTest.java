@@ -1,10 +1,11 @@
 package nl.roelofvdg.jnfe_6;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class AbstractNFeAdaptadorBeanTest {
+
+public class AbstractNFeAdaptadorBeanTest {
     @Test
     public void converte() {
         assertEquals(2, AbstractNFeAdaptadorBean.convertePosPeso(43, 43));

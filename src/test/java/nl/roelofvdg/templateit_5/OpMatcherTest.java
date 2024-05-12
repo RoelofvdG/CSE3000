@@ -1,10 +1,10 @@
 package nl.roelofvdg.templateit_5;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class OpMatcherTest {
+public class OpMatcherTest {
 
     private final String test1 = "x = y + z";
     private final String test2 = "@template_begin(a, b) #a x = #b";

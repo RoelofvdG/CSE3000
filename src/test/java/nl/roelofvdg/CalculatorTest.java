@@ -1,13 +1,14 @@
 package nl.roelofvdg;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-class CalculatorTest {
+
+public class CalculatorTest {
 
     @Test
-    void add() {
+    public void add() {
         Calculator calc = new Calculator();
         assertEquals(calc.add(1, 2), 3);
     }
