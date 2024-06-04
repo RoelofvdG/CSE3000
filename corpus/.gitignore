@@ -1,3 +1,6 @@
+# Generated test files
+**/*Improved.java
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar

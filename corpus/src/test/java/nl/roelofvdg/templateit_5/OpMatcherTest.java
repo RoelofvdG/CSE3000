@@ -3,6 +3,7 @@ package nl.roelofvdg.templateit_5;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+// INSERT IMPORTS HERE
 
 public class OpMatcherTest {
 
@@ -66,4 +67,6 @@ public class OpMatcherTest {
             }
         }
     }
+
+    // INSERT TESTS HERE
 }

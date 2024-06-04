@@ -3,7 +3,7 @@ package nl.roelofvdg.jnfe_6;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+// INSERT IMPORTS HERE
 
 public class AbstractNFeAdaptadorBeanTest {
     @Test
@@ -30,4 +30,6 @@ public class AbstractNFeAdaptadorBeanTest {
         String chNFe = "5206043300991100250655012000000780026730161";
         assertEquals(5, AbstractNFeAdaptadorBean.calculaDV(chNFe));
     }
+
+    // INSERT TESTS HERE
 }
