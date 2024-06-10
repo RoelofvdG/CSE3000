@@ -3,7 +3,7 @@ from jclass import JClass
 
 
 class LLMAPI:
-    def __init__(self, url="http://localhost:1234/v1"):
+    def __init__(self, url="https://llm.roelofvdg.nl/v1"):
         self.client = OpenAI(base_url=url, api_key="lm-studio")
 
         self.models = self.client.models.list()
@@ -41,8 +41,6 @@ class LLMAPI:
                     tests.append(extracting_test)
                     extracting_test = None
 
-        print("imports", imports)
-        print("tests", tests)
         res = {
             "raw": raw,
             "imports": imports,
