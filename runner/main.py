@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # for l in res.error_locations:
     #     jclass.disable_improved_test(l)
 
-    file_name = "data-codestral.json.safe"
+    file_name = "data.json"
 
     # Runner.run_entire_corpus(6, output_file=file_name)
 
