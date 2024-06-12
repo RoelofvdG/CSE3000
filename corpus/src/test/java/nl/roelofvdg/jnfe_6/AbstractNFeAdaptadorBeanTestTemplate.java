@@ -8,4 +8,5 @@ public class AbstractNFeAdaptadorBeanTestTemplate {
 
     // INSERT TESTS HERE
 
+
 }

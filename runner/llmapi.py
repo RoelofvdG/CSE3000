@@ -23,21 +23,24 @@ class LLMAPI:
 
     def generate_tests(self, jclass: JClass):
         code = jclass.get_code()
-        raw = self.prompt("Write junit 4 test for this Java class:\n" + code)
+        raw = self.prompt("Write junit 4 test for this Java class, give only the Java code:\n" + code)
         lines = raw.splitlines(keepends=True)
         imports = []
         tests = []
         extracting_test = None
+        tab = None
 
-        for l in lines:
+        for i in range(len(lines)):
+            l = lines[i]
             if l.strip().startswith("import"):
                 imports.append(l)
 
             if l.strip().startswith("@") and extracting_test is None:
                 extracting_test = l
+                tab = l[:l.index("@")]
             elif extracting_test is not None:
                 extracting_test += l
-                if l.strip() == "}":
+                if l.startswith(tab + "}"):
                     tests.append(extracting_test)
                     extracting_test = None
 

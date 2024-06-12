@@ -3,6 +3,7 @@ import os
 
 IMPORTS_MARKER = "// INSERT IMPORTS HERE"
 TESTS_MARKER = "// INSERT TESTS HERE"
+BLACKLIST = ["calculator", "binarycalculate", "namedstyle"]
 
 
 class JClass:
@@ -55,25 +56,24 @@ class JClass:
         return os.path.join(os.path.dirname(self.absolute_path.replace("main", "test", 1)), self.class_name + "Test")
 
     def disable_improved_test_by_line(self, line_number):
+        print("Disable test on line", line_number + 1)
         improved_file = self.__get_test_path() + "Improved.java"
         with open(improved_file, "r") as f:
             f = f.read()
         lines = f.splitlines(keepends=True)
         start = end = line_number
         for i in reversed(range(line_number)):
-            if "@" in lines[i]:
+            if lines[i].replace("/", "").strip().startswith("@"):
                 start = i
                 break
         for i in range(line_number, len(lines)):
-            print(lines[i].replace("/", "").strip())
-            if lines[i].replace("/", "").strip() == "}":
+            # print(lines[i].replace("/", "").strip())
+            if lines[i].replace("/", "").strip() == "}" and lines[i+1].replace("/", "").strip() == "":
                 end = i
                 break
         for i in range(start, end + 1):
-            print(i)
-            lines[i] = "//" + lines[i]
-
-        print("".join(lines))
+            if i < len(lines):
+                lines[i] = "//" + lines[i]
 
         with open(improved_file, "w") as f:
             f.write("".join(lines))
@@ -138,5 +138,7 @@ class JClass:
             for file in files:
                 abs_path = os.path.join(root, file)
                 if abs_path.endswith(".java") or abs_path.endswith(".java.disabled"):
-                    class_files.append(JClass(abs_path))
+                    jclass = JClass(abs_path)
+                    if jclass.class_name.lower() not in BLACKLIST:
+                        class_files.append(jclass)
         return class_files

@@ -6,4 +6,5 @@ public class CalculatorTestTemplate {
 
     // INSERT TESTS HERE
 
+
 }

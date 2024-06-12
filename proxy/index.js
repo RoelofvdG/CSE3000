@@ -28,4 +28,7 @@ app.post(
 		changeOrigin: true,
 	})
 );
-app.listen(1235);
+
+app.listen(1235, () => {
+	console.log("Started proxy");
+});
