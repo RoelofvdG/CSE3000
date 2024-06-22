@@ -33,20 +33,25 @@ class Runner:
             result = self.run_tests()
 
             if result.has_error():
-                print(run_prefix, "Error in tests for " + self.jclass.class_name + ":", result.status_code, "at",
-                      result.error_locations)
-                # print(tests["raw"])
-                # print(result.raw)
-                for location in result.error_locations:
-                    self.jclass.disable_improved_test(location)
-                for i in range(len(tests["tests"])):
-                    print(run_prefix, "Retrying after disabling tests (" + str(i + 1) + "/", str(len(tests["tests"])) + ")")
-                    result = self.run_tests()
-                    if result.has_error():
-                        for location in result.error_locations:
-                            self.jclass.disable_improved_test(location)
-                    else:
-                        break
+                try:
+                    print(run_prefix, "Error in tests for " + self.jclass.class_name + ":", result.status_code, "at",
+                          result.error_locations)
+                    # print(tests["raw"])
+                    # print(result.raw)
+                    for location in result.error_locations:
+                        self.jclass.disable_improved_test(location)
+                    for i in range(len(tests["tests"])):
+                        print(run_prefix, "Retrying after disabling tests (" + str(i + 1) + "/", str(len(tests["tests"])) + ")")
+                        result = self.run_tests()
+                        if result.has_error():
+                            for location in result.error_locations:
+                                self.jclass.disable_improved_test(location)
+                        else:
+                            break
+                except IndexError as err:
+                    print("Error occurred during removal of method:")
+                    print(err)
+                    continue
             if not result.has_error():
                 self.jclass.enable_base_tests()
 
@@ -59,7 +64,7 @@ class Runner:
         return results
 
     def run_tests(self):
-        mutant_class = ("nl.roelofvdg." + self.jclass.package_name + "." + self.jclass.class_name).replace("..", ".")
+        mutant_class = (corpus.PACKAGE_PREFIX + self.jclass.package_name + "." + self.jclass.class_name).replace("..", ".")
         try:
             self.jclass.disable_base_tests()
             run = subprocess.check_output("cd ../corpus && gradle pitest", shell=True, text=True,
@@ -106,6 +111,10 @@ class Runner:
             raise Exception("Baseline tests contained an error")
 
         for c in cs:
+            for c2 in cs:
+                if c.class_name != c2.class_name:
+                    c2.disable()
+            c.enable()
             r = Runner(c)
             print("Computing baseline for " + c.class_name)
             run = r.run_tests()
@@ -118,6 +127,11 @@ class Runner:
         results = []
         for c in cs:
             if c.has_tests():
+                for c2 in cs:
+                    if c2.package_name == c.package_name:
+                        c2.enable()
+                    else:
+                        c2.disable()
                 r = Runner(c)
                 result = r.do_run(runs_amount)
                 results.append(result)

@@ -3,7 +3,7 @@ import os
 
 IMPORTS_MARKER = "// INSERT IMPORTS HERE"
 TESTS_MARKER = "// INSERT TESTS HERE"
-BLACKLIST = ["calculator", "binarycalculate", "namedstyle"]
+BLACKLIST = ["calculator", "namedstyle", "consoleexception", "filenamerequest"]
 
 
 class JClass:

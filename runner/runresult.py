@@ -43,10 +43,10 @@ class RunResult:
     def to_dict(self):
         return {
             "status_code": self.status_code,
-            "raw": self.raw,
             "error_locations": self.error_locations,
             "improved_result": self.improved_result,
             "combined_result": self.combined_result,
             "duration": self.duration,
-            "llm_output": self.llm_output
+            "llm_output": self.llm_output,
+            "raw": self.raw,
         }

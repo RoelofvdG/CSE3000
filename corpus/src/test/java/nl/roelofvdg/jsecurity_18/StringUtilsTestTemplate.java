@@ -1,12 +1,15 @@
-package nl.roelofvdg.templateit_5;
+package nl.roelofvdg.jsecurity_18;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 // INSERT IMPORTS HERE
 
-public class OpMatcherTestTemplate {
+public class StringUtilsTestTemplate {
 
     // INSERT TESTS HERE
+
 
 
 }
