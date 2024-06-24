@@ -1,0 +1,1166 @@
+{
+   "Util": {
+      "class_name": "Util",
+      "base_score": [
+         20,
+         24
+      ],
+      "mutants": 24,
+      "base_perc": 83,
+      "runs": [
+         {
+            "improved_score": [
+               20,
+               24
+            ],
+            "improved_perc": 83,
+            "combined_score": [
+               23,
+               24
+            ],
+            "combined_perc": 96,
+            "duration": 18.675040800000716
+         },
+         {
+            "improved_score": [
+               21,
+               24
+            ],
+            "improved_perc": 88,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 17.562564899999416
+         },
+         {
+            "improved_score": [
+               15,
+               24
+            ],
+            "improved_perc": 62,
+            "combined_score": [
+               23,
+               24
+            ],
+            "combined_perc": 96,
+            "duration": 19.84817269999985
+         },
+         {
+            "improved_score": [
+               21,
+               24
+            ],
+            "improved_perc": 88,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 17.65171890000056
+         },
+         {
+            "improved_score": [
+               15,
+               24
+            ],
+            "improved_perc": 62,
+            "combined_score": [
+               23,
+               24
+            ],
+            "combined_perc": 96,
+            "duration": 23.55673079999906
+         },
+         {
+            "improved_score": [
+               14,
+               24
+            ],
+            "improved_perc": 58,
+            "combined_score": [
+               23,
+               24
+            ],
+            "combined_perc": 96,
+            "duration": 20.199360999999044
+         }
+      ],
+      "t_test": {
+         "statistic": -15.811388300841891,
+         "p_value": 1.840852961102212e-05
+      },
+      "a12": [
+         1.0,
+         "large"
+      ]
+   },
+   "ArrayFill": {
+      "class_name": "ArrayFill",
+      "base_score": [
+         24,
+         24
+      ],
+      "mutants": 24,
+      "base_perc": 100,
+      "runs": [
+         {
+            "improved_score": [
+               24,
+               24
+            ],
+            "improved_perc": 100,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 37.88616759999786
+         },
+         {
+            "improved_score": [
+               24,
+               24
+            ],
+            "improved_perc": 100,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 31.741812799999025
+         },
+         {
+            "improved_score": [
+               24,
+               24
+            ],
+            "improved_perc": 100,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 29.770597700000508
+         },
+         {
+            "improved_score": [
+               24,
+               24
+            ],
+            "improved_perc": 100,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 27.827465599999414
+         },
+         {
+            "improved_score": [
+               24,
+               24
+            ],
+            "improved_perc": 100,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 30.578987800003233
+         },
+         {
+            "improved_score": [
+               24,
+               24
+            ],
+            "improved_perc": 100,
+            "combined_score": [
+               24,
+               24
+            ],
+            "combined_perc": 100,
+            "duration": 29.489732199999708
+         }
+      ],
+      "t_test": {
+         "statistic": NaN,
+         "p_value": NaN
+      },
+      "a12": [
+         0.5,
+         "negligible"
+      ]
+   },
+   "Distance": {
+      "class_name": "Distance",
+      "base_score": [
+         36,
+         49
+      ],
+      "mutants": 49,
+      "base_perc": 73,
+      "runs": [
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 32.13445890000003
+         },
+         {
+            "improved_score": [
+               0,
+               49
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               36,
+               49
+            ],
+            "combined_perc": 73,
+            "duration": 25.302313299998787
+         },
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 33.676198099998146
+         },
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 33.552789700002904
+         },
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 35.21473329999935
+         },
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 35.37482309999905
+         }
+      ],
+      "t_test": {
+         "statistic": 5.0,
+         "p_value": 0.004104715980053322
+      },
+      "a12": [
+         0.08333333333333333,
+         "large"
+      ]
+   },
+   "IlluminaUtil": {
+      "class_name": "IlluminaUtil",
+      "base_score": [
+         22,
+         33
+      ],
+      "mutants": 33,
+      "base_perc": 67,
+      "runs": [
+         {
+            "improved_score": [
+               28,
+               33
+            ],
+            "improved_perc": 85,
+            "combined_score": [
+               28,
+               33
+            ],
+            "combined_perc": 85,
+            "duration": 43.29273859999739
+         },
+         {
+            "improved_score": [
+               7,
+               33
+            ],
+            "improved_perc": 21,
+            "combined_score": [
+               27,
+               33
+            ],
+            "combined_perc": 82,
+            "duration": 26.374400500000775
+         },
+         {
+            "improved_score": [
+               10,
+               33
+            ],
+            "improved_perc": 30,
+            "combined_score": [
+               27,
+               33
+            ],
+            "combined_perc": 82,
+            "duration": 29.669330500000797
+         },
+         {
+            "improved_score": [
+               28,
+               33
+            ],
+            "improved_perc": 85,
+            "combined_score": [
+               28,
+               33
+            ],
+            "combined_perc": 85,
+            "duration": 42.07547839999825
+         },
+         {
+            "improved_score": [
+               24,
+               33
+            ],
+            "improved_perc": 73,
+            "combined_score": [
+               29,
+               33
+            ],
+            "combined_perc": 88,
+            "duration": 55.21446189999915
+         },
+         {
+            "improved_score": [
+               31,
+               33
+            ],
+            "improved_perc": 94,
+            "combined_score": [
+               31,
+               33
+            ],
+            "combined_perc": 94,
+            "duration": 44.141190400001506
+         }
+      ],
+      "t_test": {
+         "statistic": -10.304196746386166,
+         "p_value": 0.00014803951006064087
+      },
+      "a12": [
+         1.0,
+         "large"
+      ]
+   },
+   "Vector": {
+      "class_name": "Vector",
+      "base_score": [
+         62,
+         97
+      ],
+      "mutants": 97,
+      "base_perc": 64,
+      "runs": [
+         {
+            "improved_score": [
+               0,
+               97
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               62,
+               97
+            ],
+            "combined_perc": 64,
+            "duration": 29.57060460000139
+         },
+         {
+            "improved_score": [
+               0,
+               97
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               62,
+               97
+            ],
+            "combined_perc": 64,
+            "duration": 23.10620729999937
+         },
+         {
+            "improved_score": [
+               20,
+               97
+            ],
+            "improved_perc": 21,
+            "combined_score": [
+               63,
+               97
+            ],
+            "combined_perc": 65,
+            "duration": 21.34904319999987
+         },
+         {
+            "improved_score": [
+               0,
+               97
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               62,
+               97
+            ],
+            "combined_perc": 64,
+            "duration": 25.727563200001896
+         },
+         {
+            "improved_score": [
+               0,
+               97
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               62,
+               97
+            ],
+            "combined_perc": 64,
+            "duration": 31.010692500000005
+         },
+         {
+            "improved_score": [
+               43,
+               97
+            ],
+            "improved_perc": 44,
+            "combined_score": [
+               77,
+               97
+            ],
+            "combined_perc": 79,
+            "duration": 34.91468950000126
+         }
+      ],
+      "t_test": {
+         "statistic": -1.0787197799411894,
+         "p_value": 0.32997938691163187
+      },
+      "a12": [
+         0.6666666666666666,
+         "medium"
+      ]
+   },
+   "AbstractNFeAdaptadorBean": {
+      "class_name": "AbstractNFeAdaptadorBean",
+      "base_score": [
+         15,
+         16
+      ],
+      "mutants": 16,
+      "base_perc": 94,
+      "runs": [
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 30.071542699999554
+         },
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 29.62731050000002
+         },
+         {
+            "improved_score": [
+               1,
+               16
+            ],
+            "improved_perc": 6,
+            "combined_score": [
+               15,
+               16
+            ],
+            "combined_perc": 94,
+            "duration": 22.054731599997467
+         },
+         {
+            "improved_score": [
+               1,
+               16
+            ],
+            "improved_perc": 6,
+            "combined_score": [
+               15,
+               16
+            ],
+            "combined_perc": 94,
+            "duration": 24.2048638999986
+         },
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 28.557451000000583
+         },
+         {
+            "improved_score": [
+               1,
+               16
+            ],
+            "improved_perc": 6,
+            "combined_score": [
+               15,
+               16
+            ],
+            "combined_perc": 94,
+            "duration": 23.67415179999807
+         }
+      ],
+      "t_test": {
+         "statistic": 2.23606797749979,
+         "p_value": 0.0755868184216124
+      },
+      "a12": [
+         0.25,
+         "large"
+      ]
+   },
+   "StringUtils": {
+      "class_name": "StringUtils",
+      "base_score": [
+         24,
+         67
+      ],
+      "mutants": 67,
+      "base_perc": 36,
+      "runs": [
+         {
+            "improved_score": [
+               27,
+               67
+            ],
+            "improved_perc": 40,
+            "combined_score": [
+               48,
+               67
+            ],
+            "combined_perc": 72,
+            "duration": 29.417590500001097
+         },
+         {
+            "improved_score": [
+               41,
+               67
+            ],
+            "improved_perc": 61,
+            "combined_score": [
+               48,
+               67
+            ],
+            "combined_perc": 72,
+            "duration": 29.629808500001673
+         },
+         {
+            "improved_score": [
+               51,
+               67
+            ],
+            "improved_perc": 76,
+            "combined_score": [
+               58,
+               67
+            ],
+            "combined_perc": 87,
+            "duration": 32.87108680000165
+         },
+         {
+            "improved_score": [
+               35,
+               67
+            ],
+            "improved_perc": 52,
+            "combined_score": [
+               56,
+               67
+            ],
+            "combined_perc": 84,
+            "duration": 29.92048120000254
+         },
+         {
+            "improved_score": [
+               47,
+               67
+            ],
+            "improved_perc": 70,
+            "combined_score": [
+               56,
+               67
+            ],
+            "combined_perc": 84,
+            "duration": 30.630806799999846
+         },
+         {
+            "improved_score": [
+               20,
+               67
+            ],
+            "improved_perc": 30,
+            "combined_score": [
+               41,
+               67
+            ],
+            "combined_perc": 61,
+            "duration": 24.405199699998775
+         }
+      ],
+      "t_test": {
+         "statistic": -10.104945098794655,
+         "p_value": 0.00016259632350227896
+      },
+      "a12": [
+         1.0,
+         "large"
+      ]
+   },
+   "UnsyncBufferedInputStream": {
+      "class_name": "UnsyncBufferedInputStream",
+      "base_score": [
+         73,
+         95
+      ],
+      "mutants": 95,
+      "base_perc": 77,
+      "runs": [
+         {
+            "improved_score": [
+               0,
+               95
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               73,
+               95
+            ],
+            "combined_perc": 77,
+            "duration": 25.94040440000026
+         },
+         {
+            "improved_score": [
+               0,
+               95
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               73,
+               95
+            ],
+            "combined_perc": 77,
+            "duration": 21.269656299999042
+         },
+         {
+            "improved_score": [
+               0,
+               95
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               73,
+               95
+            ],
+            "combined_perc": 77,
+            "duration": 23.73391370000172
+         },
+         {
+            "improved_score": [
+               0,
+               95
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               73,
+               95
+            ],
+            "combined_perc": 77,
+            "duration": 25.931606099999044
+         },
+         {
+            "improved_score": [
+               0,
+               95
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               73,
+               95
+            ],
+            "combined_perc": 77,
+            "duration": 21.578518300000724
+         },
+         {
+            "improved_score": [
+               0,
+               95
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               73,
+               95
+            ],
+            "combined_perc": 77,
+            "duration": 23.540658699999767
+         }
+      ],
+      "t_test": {
+         "statistic": NaN,
+         "p_value": NaN
+      },
+      "a12": [
+         0.5,
+         "negligible"
+      ]
+   },
+   "PrefixParser": {
+      "class_name": "PrefixParser",
+      "base_score": [
+         69,
+         97
+      ],
+      "mutants": 97,
+      "base_perc": 71,
+      "runs": [
+         {
+            "improved_score": [
+               0,
+               0
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               0,
+               0
+            ],
+            "combined_perc": 0,
+            "duration": 33.553987100000086
+         },
+         {
+            "improved_score": [
+               1,
+               97
+            ],
+            "improved_perc": 1,
+            "combined_score": [
+               69,
+               97
+            ],
+            "combined_perc": 71,
+            "duration": 26.02663720000055
+         },
+         {
+            "improved_score": [
+               23,
+               97
+            ],
+            "improved_perc": 24,
+            "combined_score": [
+               72,
+               97
+            ],
+            "combined_perc": 74,
+            "duration": 22.954602400001022
+         },
+         {
+            "improved_score": [
+               34,
+               97
+            ],
+            "improved_perc": 35,
+            "combined_score": [
+               69,
+               97
+            ],
+            "combined_perc": 71,
+            "duration": 22.723972399999184
+         },
+         {
+            "improved_score": [
+               22,
+               97
+            ],
+            "improved_perc": 23,
+            "combined_score": [
+               71,
+               97
+            ],
+            "combined_perc": 73,
+            "duration": 26.51410030000261
+         },
+         {
+            "improved_score": [
+               3,
+               97
+            ],
+            "improved_perc": 3,
+            "combined_score": [
+               70,
+               97
+            ],
+            "combined_perc": 72,
+            "duration": 25.072096800002328
+         }
+      ],
+      "t_test": {
+         "statistic": 0.8966938179152318,
+         "p_value": 0.4109734828224261
+      },
+      "a12": [
+         0.6666666666666666,
+         "medium"
+      ]
+   },
+   "DateTime": {
+      "class_name": "DateTime",
+      "base_score": [
+         20,
+         40
+      ],
+      "mutants": 40,
+      "base_perc": 50,
+      "runs": [
+         {
+            "improved_score": [
+               2,
+               40
+            ],
+            "improved_perc": 5,
+            "combined_score": [
+               20,
+               40
+            ],
+            "combined_perc": 50,
+            "duration": 22.692061800000374
+         },
+         {
+            "improved_score": [
+               2,
+               40
+            ],
+            "improved_perc": 5,
+            "combined_score": [
+               20,
+               40
+            ],
+            "combined_perc": 50,
+            "duration": 21.149828200002958
+         },
+         {
+            "improved_score": [
+               8,
+               40
+            ],
+            "improved_perc": 20,
+            "combined_score": [
+               20,
+               40
+            ],
+            "combined_perc": 50,
+            "duration": 26.792603199999576
+         },
+         {
+            "improved_score": [
+               3,
+               40
+            ],
+            "improved_perc": 8,
+            "combined_score": [
+               21,
+               40
+            ],
+            "combined_perc": 52,
+            "duration": 23.861516600001778
+         },
+         {
+            "improved_score": [
+               3,
+               40
+            ],
+            "improved_perc": 8,
+            "combined_score": [
+               21,
+               40
+            ],
+            "combined_perc": 52,
+            "duration": 23.87561640000058
+         },
+         {
+            "improved_score": [
+               3,
+               40
+            ],
+            "improved_perc": 8,
+            "combined_score": [
+               21,
+               40
+            ],
+            "combined_perc": 52,
+            "duration": 23.729038400000718
+         }
+      ],
+      "t_test": {
+         "statistic": -2.23606797749979,
+         "p_value": 0.0755868184216124
+      },
+      "a12": [
+         0.75,
+         "large"
+      ]
+   },
+   "StringMap": {
+      "class_name": "StringMap",
+      "base_score": [
+         11,
+         19
+      ],
+      "mutants": 19,
+      "base_perc": 58,
+      "runs": [
+         {
+            "improved_score": [
+               0,
+               19
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               11,
+               19
+            ],
+            "combined_perc": 58,
+            "duration": 26.368362099998194
+         },
+         {
+            "improved_score": [
+               2,
+               19
+            ],
+            "improved_perc": 11,
+            "combined_score": [
+               11,
+               19
+            ],
+            "combined_perc": 58,
+            "duration": 31.43024669999795
+         },
+         {
+            "improved_score": [
+               0,
+               19
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               11,
+               19
+            ],
+            "combined_perc": 58,
+            "duration": 25.484099100001913
+         },
+         {
+            "improved_score": [
+               0,
+               19
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               11,
+               19
+            ],
+            "combined_perc": 58,
+            "duration": 24.774225500001194
+         },
+         {
+            "improved_score": [
+               0,
+               19
+            ],
+            "improved_perc": 0,
+            "combined_score": [
+               11,
+               19
+            ],
+            "combined_perc": 58,
+            "duration": 27.400400399998034
+         },
+         {
+            "improved_score": [
+               9,
+               19
+            ],
+            "improved_perc": 47,
+            "combined_score": [
+               12,
+               19
+            ],
+            "combined_perc": 63,
+            "duration": 24.055952400001843
+         }
+      ],
+      "t_test": {
+         "statistic": -0.9999999999999964,
+         "p_value": 0.363217467649124
+      },
+      "a12": [
+         0.5833333333333334,
+         "small"
+      ]
+   },
+   "OpMatcher": {
+      "class_name": "OpMatcher",
+      "base_score": [
+         14,
+         29
+      ],
+      "mutants": 29,
+      "base_perc": 48,
+      "runs": [
+         {
+            "improved_score": [
+               18,
+               29
+            ],
+            "improved_perc": 62,
+            "combined_score": [
+               25,
+               29
+            ],
+            "combined_perc": 86,
+            "duration": 29.545651700002054
+         },
+         {
+            "improved_score": [
+               18,
+               29
+            ],
+            "improved_perc": 62,
+            "combined_score": [
+               25,
+               29
+            ],
+            "combined_perc": 86,
+            "duration": 27.76981220000016
+         },
+         {
+            "improved_score": [
+               21,
+               29
+            ],
+            "improved_perc": 72,
+            "combined_score": [
+               27,
+               29
+            ],
+            "combined_perc": 93,
+            "duration": 21.09396519999791
+         },
+         {
+            "improved_score": [
+               21,
+               29
+            ],
+            "improved_perc": 72,
+            "combined_score": [
+               27,
+               29
+            ],
+            "combined_perc": 93,
+            "duration": 24.346662599997217
+         },
+         {
+            "improved_score": [
+               21,
+               29
+            ],
+            "improved_perc": 72,
+            "combined_score": [
+               27,
+               29
+            ],
+            "combined_perc": 93,
+            "duration": 21.219536000000517
+         },
+         {
+            "improved_score": [
+               18,
+               29
+            ],
+            "improved_perc": 62,
+            "combined_score": [
+               25,
+               29
+            ],
+            "combined_perc": 86,
+            "duration": 23.655750300000363
+         }
+      ],
+      "t_test": {
+         "statistic": -26.832815729997478,
+         "p_value": 1.3444093803602894e-06
+      },
+      "a12": [
+         1.0,
+         "large"
+      ]
+   }
+}
